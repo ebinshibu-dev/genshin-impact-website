@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="gaming.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&display=swap" rel="stylesheet">
+  <!-- In your index.html <head> -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <header id="home">
+    <div class="nav">
+      <img src="assets/123 2.png" alt="Logo" class="logo">
+
+      <div class="left-side">
+        <a href="#home" class="nav-link" data-section="home" data-original="Home" data-bg="assets/hover.png"
+          data-alt="家">Home</a>
+        <a href="#characters" class="nav-link2" data-section="characters" data-original="Characters" data-bg="assets/hover.png"
+          data-alt="人物" data-size="wide">Characters</a>
+        <a href="#news" class="nav-link" data-section="news" data-original="News" data-bg="assets/hover.png"
+          data-alt="消息">News</a>
+        <a href="#discover" class="nav-link" data-section="discover" data-original="Discover" data-bg="assets/hover.png"
+          data-alt="发现">Discover</a>
+
+      </div>
+
+      <div class="right-side">
+        <div class="icons">
+          <a href="https://twitter.com" target="_blank" class="social-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="34" viewBox="0 0 38 34" fill="none">
+              <rect x="0.5" y="0.5" width="37" height="33" rx="11.5" fill="#1D1D1D" />
+              <rect x="0.5" y="0.5" width="37" height="33" rx="11.5" stroke="#CA9A4B" />
+              <path
+                d="M31 8.70588C30.1166 9.17941 29.1644 9.49059 28.1778 9.63941C29.1874 8.92235 29.9675 7.78588 30.3346 6.41941C29.3824 7.09588 28.327 7.56941 27.2141 7.84C26.3078 6.67647 25.0344 6 23.5889 6C20.8929 6 18.6902 8.59765 18.6902 11.8041C18.6902 12.2641 18.7361 12.7106 18.8164 13.13C14.7323 12.8865 11.0956 10.5729 8.67495 7.06882C8.25048 7.92118 8.00956 8.92235 8.00956 9.97765C8.00956 11.9935 8.86998 13.7794 10.2008 14.7941C9.38623 14.7941 8.62906 14.5235 7.96367 14.1176V14.1582C7.96367 16.9724 9.66157 19.3265 11.9101 19.8541C11.1883 20.0881 10.4303 20.1205 9.69599 19.9488C10.0076 21.1022 10.6178 22.1114 11.4409 22.8346C12.264 23.5577 13.2586 23.9585 14.2849 23.9806C12.5453 25.6048 10.3889 26.4827 8.17017 26.47C7.78011 26.47 7.39006 26.4429 7 26.3888C9.17973 28.0394 11.7725 29 14.5488 29C23.5889 29 28.5564 20.1518 28.5564 12.4806C28.5564 12.2235 28.5564 11.98 28.5449 11.7229C29.5086 10.9112 30.3346 9.88294 31 8.70588Z"
+                fill="#C48E35" />
+            </svg>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="social-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="34" viewBox="0 0 38 34" fill="none">
+              <rect x="0.5" y="0.5" width="37" height="33" rx="11.5" fill="#1D1D1D" />
+              <rect x="0.5" y="0.5" width="37" height="33" rx="11.5" stroke="#CA9A4B" />
+              <path
+                d="M26.7682 10.2746C25.4382 9.68042 23.9982 9.24917 22.4982 9C22.4718 9.00036 22.4466 9.01069 22.4282 9.02875C22.2482 9.345 22.0382 9.75708 21.8982 10.0733C20.3072 9.84348 18.6892 9.84348 17.0982 10.0733C16.9582 9.7475 16.7482 9.345 16.5582 9.02875C16.5482 9.00958 16.5182 9 16.4882 9C14.9882 9.24917 13.5582 9.68042 12.2182 10.2746C12.2082 10.2746 12.1982 10.2842 12.1882 10.2937C9.46816 14.1942 8.71816 17.9892 9.08816 21.7458C9.08816 21.765 9.09816 21.7842 9.11816 21.7938C10.9182 23.0588 12.6482 23.8254 14.3582 24.3333C14.3882 24.3429 14.4182 24.3333 14.4282 24.3142C14.8282 23.7871 15.1882 23.2312 15.4982 22.6467C15.5182 22.6083 15.4982 22.57 15.4582 22.5604C14.8882 22.3496 14.3482 22.1004 13.8182 21.8129C13.7782 21.7938 13.7782 21.7362 13.8082 21.7075C13.9182 21.6308 14.0282 21.5446 14.1382 21.4679C14.1582 21.4487 14.1882 21.4487 14.2082 21.4583C17.6482 22.9629 21.3582 22.9629 24.7582 21.4583C24.7782 21.4487 24.8082 21.4487 24.8282 21.4679C24.9382 21.5542 25.0482 21.6308 25.1582 21.7171C25.1982 21.7458 25.1982 21.8033 25.1482 21.8225C24.6282 22.1196 24.0782 22.3592 23.5082 22.57C23.4682 22.5796 23.4582 22.6275 23.4682 22.6562C23.7882 23.2408 24.1482 23.7967 24.5382 24.3237C24.5682 24.3333 24.5982 24.3429 24.6282 24.3333C26.3482 23.8254 28.0782 23.0588 29.8782 21.7938C29.8982 21.7842 29.9082 21.765 29.9082 21.7458C30.3482 17.4046 29.1782 13.6383 26.8082 10.2937C26.7982 10.2842 26.7882 10.2746 26.7682 10.2746ZM16.0182 19.4554C14.9882 19.4554 14.1282 18.545 14.1282 17.4237C14.1282 16.3025 14.9682 15.3921 16.0182 15.3921C17.0782 15.3921 17.9182 16.3121 17.9082 17.4237C17.9082 18.545 17.0682 19.4554 16.0182 19.4554ZM22.9882 19.4554C21.9582 19.4554 21.0982 18.545 21.0982 17.4237C21.0982 16.3025 21.9382 15.3921 22.9882 15.3921C24.0482 15.3921 24.8882 16.3121 24.8782 17.4237C24.8782 18.545 24.0482 19.4554 22.9882 19.4554Z"
+                fill="#CA9A4B" />
+            </svg>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="social-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="34" viewBox="0 0 38 34" fill="none">
+              <rect x="0.5" y="0.5" width="37" height="33" rx="11.5" fill="#1D1D1D" />
+              <rect x="0.5" y="0.5" width="37" height="33" rx="11.5" stroke="#CA9A4B" />
+              <path
+                d="M13.96 6H24.04C27.88 6 31 8.99 31 12.67V22.33C31 24.099 30.2667 25.7955 28.9615 27.0464C27.6562 28.2973 25.8859 29 24.04 29H13.96C10.12 29 7 26.01 7 22.33V12.67C7 10.901 7.73328 9.20447 9.03854 7.9536C10.3438 6.70273 12.1141 6 13.96 6ZM13.72 8.3C12.5743 8.3 11.4755 8.73618 10.6653 9.51258C9.85514 10.289 9.4 11.342 9.4 12.44V22.56C9.4 24.8485 11.332 26.7 13.72 26.7H24.28C25.4257 26.7 26.5245 26.2638 27.3347 25.4874C28.1449 24.711 28.6 23.658 28.6 22.56V12.44C28.6 10.1515 26.668 8.3 24.28 8.3H13.72ZM25.3 10.025C25.6978 10.025 26.0794 10.1765 26.3607 10.446C26.642 10.7156 26.8 11.0813 26.8 11.4625C26.8 11.8437 26.642 12.2094 26.3607 12.479C26.0794 12.7485 25.6978 12.9 25.3 12.9C24.9022 12.9 24.5206 12.7485 24.2393 12.479C23.958 12.2094 23.8 11.8437 23.8 11.4625C23.8 11.0813 23.958 10.7156 24.2393 10.446C24.5206 10.1765 24.9022 10.025 25.3 10.025ZM19 11.75C20.5913 11.75 22.1174 12.3558 23.2426 13.4341C24.3679 14.5125 25 15.975 25 17.5C25 19.025 24.3679 20.4875 23.2426 21.5659C22.1174 22.6442 20.5913 23.25 19 23.25C17.4087 23.25 15.8826 22.6442 14.7574 21.5659C13.6321 20.4875 13 19.025 13 17.5C13 15.975 13.6321 14.5125 14.7574 13.4341C15.8826 12.3558 17.4087 11.75 19 11.75ZM19 14.05C18.0452 14.05 17.1295 14.4135 16.4544 15.0605C15.7793 15.7075 15.4 16.585 15.4 17.5C15.4 18.415 15.7793 19.2925 16.4544 19.9395C17.1295 20.5865 18.0452 20.95 19 20.95C19.9548 20.95 20.8705 20.5865 21.5456 19.9395C22.2207 19.2925 22.6 18.415 22.6 17.5C22.6 16.585 22.2207 15.7075 21.5456 15.0605C20.8705 14.4135 19.9548 14.05 19 14.05Z"
+                fill="#CA9A4B" />
+            </svg>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="social-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="34" viewBox="0 0 38 34" fill="none">
+              <rect x="0.5" y="0.5" width="37" height="33" rx="11.5" fill="#1D1D1D" />
+              <rect x="0.5" y="0.5" width="37" height="33" rx="11.5" stroke="#CA9A4B" />
+              <path
+                d="M8.5 26.7H29.5C29.925 26.7 30.2815 26.8104 30.5695 27.0312C30.8575 27.252 31.001 27.5249 31 27.85C30.999 28.1751 30.855 28.4484 30.568 28.6699C30.281 28.8915 29.925 29.0015 29.5 29H8.5C8.075 29 7.71901 28.8896 7.43201 28.6688C7.14501 28.448 7.00101 28.1751 7.00001 27.85C6.99901 27.5249 7.14301 27.252 7.43201 27.0312C7.721 26.8104 8.077 26.7 8.5 26.7ZM19 23.6812C18.775 23.6812 18.5565 23.6429 18.3445 23.5662C18.1325 23.4896 17.951 23.3746 17.8 23.2212L10.375 15.9187C10 15.5354 9.95 15.1283 10.225 14.6974C10.5 14.2666 10.95 14.0508 11.575 14.05H14.5V7.15C14.5 6.82417 14.644 6.55123 14.932 6.3312C15.22 6.11117 15.576 6.00077 16 6H22C22.425 6 22.7815 6.1104 23.0695 6.3312C23.3575 6.552 23.501 6.82493 23.5 7.15V14.05H26.425C27.05 14.05 27.5 14.2658 27.775 14.6974C28.05 15.1291 28 15.5362 27.625 15.9187L20.2 23.2212C20.05 23.3746 19.8685 23.4896 19.6555 23.5662C19.4425 23.6429 19.224 23.6812 19 23.6812Z"
+                fill="#D0A55F" />
+            </svg>
+          </a>
+        </div>
+        <a href="https://example.com" class="site">Official site</a>
+      </div>
+    </div>
+    </div>
+
+    <section class="home">
+      <div class="hero-vid1">
+        <img src="assets/123 3.png" alt="">
+      </div>
+      <div class="right-part">
+        <div class="logo2">
+          <img src="assets/123.png" alt="">
+        </div>
+        <div class="playstore">
+          <img src="assets/play.png" alt="">
+          <img src="assets/app.png" alt="">
+        </div>
+        <div class="youtube">
+          <svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" fill="none">
+            <mask id="path-1-inside-1_220_288" fill="white">
+              <path
+                d="M63.0264 131.971C29.2527 130.508 1.88604 103.619 0.00586032 69.7197L7.34473 65.9111L9.48552e-07 62.4228C1.80519 28.6959 29.0037 1.50071 63.081 0.00192355L66.1416 6.07419L68.9463 -2.95709e-05C102.755 1.46633 130.142 28.4096 131.97 62.3593L124.895 66.0302L131.978 69.3955C130.247 103.187 103.025 130.46 68.9043 131.969L65.9873 125.881L63.0264 131.971Z" />
+            </mask>
+            <path
+              d="M63.0264 131.971L62.9398 133.969L64.2511 134.026L64.825 132.845L63.0264 131.971ZM0.00586032 69.7197L-0.915394 67.9445L-2.06265 68.5399L-1.99107 69.8304L0.00586032 69.7197ZM7.34473 65.9111L8.26598 67.6863L11.8395 65.8317L8.20275 64.1045L7.34473 65.9111ZM9.48552e-07 62.4228L-1.99714 62.3159L-2.06878 63.6544L-0.858019 64.2294L9.48552e-07 62.4228ZM63.081 0.00192355L64.867 -0.898243L64.285 -2.05296L62.9932 -1.99614L63.081 0.00192355ZM66.1416 6.07419L64.3556 6.97435L66.2205 10.6743L67.9574 6.9126L66.1416 6.07419ZM68.9463 -2.95709e-05L69.0329 -1.99815L67.6928 -2.05628L67.1305 -0.838442L68.9463 -2.95709e-05ZM131.97 62.3593L132.891 64.1346L134.036 63.5403L133.967 62.2518L131.97 62.3593ZM124.895 66.0302L123.973 64.255L120.4 66.1092L124.036 67.8367L124.895 66.0302ZM131.978 69.3955L133.976 69.4978L134.044 68.1626L132.837 67.5889L131.978 69.3955ZM68.9043 131.969L67.1006 132.833L67.6719 134.025L68.9926 133.967L68.9043 131.969ZM65.9873 125.881L67.7909 125.017L66.0005 121.28L64.1886 125.006L65.9873 125.881ZM63.0264 131.971L63.1129 129.973C30.3633 128.554 3.82585 102.478 2.00279 69.6089L0.00586032 69.7197L-1.99107 69.8304C-0.0537718 104.76 28.1421 132.461 62.9398 133.969L63.0264 131.971ZM0.00586032 69.7197L0.927115 71.4949L8.26598 67.6863L7.34473 65.9111L6.42347 64.1359L-0.915394 67.9445L0.00586032 69.7197ZM7.34473 65.9111L8.20275 64.1045L0.858021 60.6162L9.48552e-07 62.4228L-0.858019 64.2294L6.48671 67.7177L7.34473 65.9111ZM9.48552e-07 62.4228L1.99714 62.5297C3.74753 29.8267 30.1237 3.45338 63.1689 1.99999L63.081 0.00192355L62.9932 -1.99614C27.8838 -0.45197 -0.137151 27.5651 -1.99714 62.3159L9.48552e-07 62.4228ZM63.081 0.00192355L61.2951 0.90209L64.3556 6.97435L66.1416 6.07419L67.9276 5.17402L64.867 -0.898243L63.081 0.00192355ZM66.1416 6.07419L67.9574 6.9126L70.7621 0.838383L68.9463 -2.95709e-05L67.1305 -0.838442L64.3258 5.23578L66.1416 6.07419ZM68.9463 -2.95709e-05L68.8596 1.99809C101.643 3.41999 128.201 29.5485 129.973 62.4668L131.97 62.3593L133.967 62.2518C132.084 27.2707 103.866 -0.487329 69.0329 -1.99815L68.9463 -2.95709e-05ZM131.97 62.3593L131.049 60.5841L123.973 64.255L124.895 66.0302L125.816 67.8055L132.891 64.1346L131.97 62.3593ZM124.895 66.0302L124.036 67.8367L131.12 71.202L131.978 69.3955L132.837 67.5889L125.753 64.2237L124.895 66.0302ZM131.978 69.3955L129.981 69.2931C128.302 102.059 101.903 128.507 68.8159 129.971L68.9043 131.969L68.9926 133.967C104.147 132.412 132.192 104.315 133.976 69.4978L131.978 69.3955ZM68.9043 131.969L70.7079 131.104L67.7909 125.017L65.9873 125.881L64.1836 126.745L67.1006 132.833L68.9043 131.969ZM65.9873 125.881L64.1886 125.006L61.2277 131.096L63.0264 131.971L64.825 132.845L67.786 126.755L65.9873 125.881Z"
+              fill="#CA9A4B" mask="url(#path-1-inside-1_220_288)" />
+          </svg>
+
+          <img id="youtube-thumbnail" src="assets/youtube2.png" alt="Click to play video">
+        </div>
+        <!-- Video container -->
+        <div id="overlay">
+          <div id="video-popup">
+            <button id="close-btn">×</button>
+            <iframe src="https://www.youtube.com/embed/TAlKhARUcoY?autoplay=1" title="YouTube video player"
+              allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </header>
+  <div class="back-image">
+
+    <section class="characters" id="characters">
+      <h1>Characters</h1>
+
+      <div class="character-info-container">
+        <!-- Character Info Slider -->
+        <div class="info-item active" data-index="0">
+          <div class="character-info">
+            <img src="assets/image 7.png" alt="">
+            <h1>MAVUIKA</h1>
+            <p>
+              Natlan's Archon and leader, the<br>
+              everlasting flame of hope for all <br>
+              living beings, and the cleansing flame<br>
+              that incinerates all evil.
+            </p>
+          </div>
+        </div>
+
+        <div class="info-item" data-index="1">
+          <div class="character-info">
+            <img src="assets/image 7.png" alt="">
+            <h1>VARESA</h1>
+            <p>
+              An orchard owner who normally leads a <br>
+              laid-back life. However, when her fighting <br>
+              spirit is ignited, she dons a unique mask and <br>
+              exudes the indomitable air of a legendary hero.
+
+            </p>
+          </div>
+        </div>
+
+        <div class="info-item" data-index="2">
+          <div class="character-info">
+            <img src="assets/image 7.png" alt="">
+            <h1>CITLALI</h1>
+            <p>
+              A legendary shaman from the Masters of <br>
+              the Night-Wind, known throughout Natlan <br>
+              as the eminent "Granny Itztli." Not one to<br>
+              be messed with, but also the first person <br>
+              all turn to when trouble arises.
+            </p>
+          </div>
+        </div>
+
+        <div class="info-item" data-index="3">
+          <div class="character-info">
+            <img src="assets/image 7.png" alt="">
+            <h1>SETHOS</h1>
+            <p>
+              A mysterious desert youth with a friendly<br>
+              smile who loves traveling by foot across<br>
+              both rainforest and desert.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Character Image -->
+      <div class="character-image-wrapper">
+        <div class="character-image">
+          <img class="char-img active" src="assets/005.png" alt="" data-index="0">
+          <img class="char-img" src="assets/impact15.png" alt="" data-index="1">
+          <img class="char-img" src="assets/mmmmm.png" alt="" data-index="2">
+          <img class="char-img" src="assets/mmm.png" alt="" data-index="3">
+        </div>
+      </div>
+
+      <!-- Switch Buttons -->
+      <div class="character-buttons">
+        <img class="char-btn active" data-index="0" src="assets/90.png" alt="Veresa">
+        <img class="char-btn" data-index="1" src="assets/89.svg" alt="Ignis">
+        <img class="char-btn" data-index="2" src="assets/91.png" alt="Lunara">
+        <img class="char-btn" data-index="3" src="assets/92.png" alt="Zephyr">
+      </div>
+
+      <hr>
+    </section>
+
+
+
+    <section class="news" id="news">
+      <h1>News</h1>
+      <div class="news-content-wrapper">
+        <div class="news-info active">
+          <div class="image-slider">
+            <!-- Radio buttons -->
+            <input type="radio" name="slider" id="img1" checked>
+            <input type="radio" name="slider" id="img2">
+            <input type="radio" name="slider" id="img3">
+
+            <!-- Slides container -->
+            <div class="slides">
+              <div class="slide s1">
+                <div class="text-content">
+                  <h2>Cut scene Animation:"Grand Endeavor" |Genshin Impact</h2>
+                  <p>Defying the order of heaven and earth, forging form through spirit and will.</p>
+                  <p class="date">May 16, 2025</p>
+                </div>
+                <div class="newing">
+                  <img src="assets/new1.png" alt="Image 1">
+                </div>
+              </div>
+              <div class="slide s2">
+                <div class="text-content">
+                  <h2> A Saurian Hunter Skilled at Counting Costs | Notes on Kinich</h2>
+                  <p>Hello, Traveler! Here are some notes about the Huitztlan Saurian Hunter, Kinich. Let's check them
+                    out
+                    together!</p>
+                  <p class="date">May 16, 2025</p>
+                </div>
+                <div class="newing">
+                  <img src="assets/news2.jpg" alt="Image 1">
+                </div>
+              </div>
+              <div class="slide s3">
+                <div class="text-content">
+                  <h2>"In this form shall I honor my subjects' dream: for a land of Eternity.</h2>
+                  <p>Hello, Traveler! Here are some notes about Her Excellency, the Almighty Narukami Ogosho, God of
+                    Thunder, Raiden Shogun.</p>
+                  <p class="date">May 16, 2025</p>
+                </div>
+                <div class="newing">
+                  <img src="assets/news3.jpg" alt="Image 1">
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <!-- Navigation -->
+            <div class="navigation-manual">
+              <label for="img1" class="manual-btn"></label>
+              <label for="img2" class="manual-btn"></label>
+              <label for="img3" class="manual-btn"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card" data-anim="right">
+            <img src="assets/newss4.jpg" alt="News 1">
+            <div class="card-text">
+              <p class="card-desc">Genshin Impact January Calendar Wallpapers</p>
+            </div>
+          </div>
+
+          <div class="card" data-anim="right">
+            <img src="assets/jj.jpg" alt="News 2">
+            <div class="card-text">
+              <p class="card-desc">"T—Traveler, how dare you even think that!?"</p>
+            </div>
+          </div>
+
+          <div class="card" data-anim="right">
+            <img src="assets/newss3.jpg" alt="News 3">
+            <div class="card-text">
+              <p class="card-desc">"Paralogism" Version 5.6 Events Preview </p>
+            </div>
+          </div>
+
+          <div class="card" data-anim="right">
+            <img src="assets/9902.jpg" alt="News 4">
+            <div class="card-text">
+              <p class="card-desc">Version 5.7 Special Program Preview</p>
+            </div>
+          </div>
+
+          <div class="card" data-anim="left">
+            <img src="assets/news4.jpg" alt="News 5">
+            <div class="card-text">
+              <p class="card-desc">"Another Lovely Day for the Spina di Rosula's</p>
+            </div>
+          </div>
+          <div class="card" data-anim="left">
+            <img src="assets/990.jpg" alt="News 6">
+            <div class="card-text">
+              <p class="card-desc">Nod-Krai Preview Teaser - "Prelude to Moonlight"</p>
+            </div>
+          </div>
+
+          <div class="card" data-anim="left">
+            <img src="assets/jjj.jpg" alt="News 7">
+            <div class="card-text">
+              <p class="card-desc">Version 5.7 "A Space and Time for You" Trailer</p>
+            </div>
+          </div>
+
+          <div class="card" data-anim="left">
+            <img src="assets/newss1.jpg" alt="News 8">
+            <div class="card-text">
+              <p class="card-desc">Cutscene Animation:The Final Culinary Showdown</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="toggle-buttons">
+        <button class="toggle-cards-btn show-btn">Show More News</button>
+        <button class="toggle-cards-btn back-btn" style="display: none;">Back to News</button>
+      </div>
+    </section>
+
+    <section class="discover" id="discover">
+      <h1>Discover</h1>
+      <div class="video-slider">
+        <!-- Radio buttons -->
+        <input type="radio" name="video-slider" id="vid1" checked>
+        <input type="radio" name="video-slider" id="vid2">
+
+        <!-- Video Slides -->
+        <div class="video-slides">
+          <div class="video-slide v1">
+
+            <video loop autoplay muted playsinline class="hero-video2">
+              <source
+                src="https://act-webstatic.hoyoverse.com/puzzle/hk4e/pz_vAmlTfcglR/resource/puzzle/2025/04/25/4e2163643e7731c06fcec35dd2f814b7_3653133952561288384.mp4"
+                type="video/mp4">
+            </video>
+            <div class="text-content2">
+              <h2>The Game Before The Gate</h2>
+            </div>
+          </div>
+
+          <div class="video-slide v2">
+            <video loop autoplay muted playsinline class="hero-video2">
+              <source
+                src="https://act-webstatic.hoyoverse.com/puzzle/hk4e/pz_vAmlTfcglR/resource/puzzle/2025/04/25/31eb58415080736fae8c0e127abcb8fb_2468727674858405376.mp4"
+                type="video/mp4">
+            </video>
+            <div class="text-content2">
+              <h2>Secret Sourse Automaton <br>Overseer Device</h2>
+            </div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="navigation-manual2">
+            <label for="vid1" class="manual-btn"></label>
+            <label for="vid2" class="manual-btn"></label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Chronicled-wish slideInHorizontalAnimation">
+      <h2>Chronicled wish</h2>
+      <img src="assets/image 11.png" alt="">
+    </section>
+  </div>
+  <div class="footer">
+    <div class="footer-info">
+      <img src="123.png" alt="">
+      <ul>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Terms of Service</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+      <img src="assets/image 12.png" alt="" class="footer-image">
+      <p>"PlayStation Family Mark," "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of Sony
+        Interactive Entertainment Inc.</p>
+      <p>Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are trademarks and/or
+        registered trademarks of Epic Games. All other trademarks are the property of their respective owners.</p>
+    </div>
+  </div>
+
+  <script src="gaming.js" ></script>
+</body>
+
+</html>
