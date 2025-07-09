@@ -20,8 +20,15 @@ A visually rich, interactive, and responsive gaming website inspired by the aest
 - Mobile-first responsive design
 
 ## 📸 Screenshots
-<!-- Add preview images or GIFs here -->
-*Coming soon...*
+
+### 🏠 Home Section  
+![Home Screenshot](assets/genshin-home.png)
+
+### 👥 Character Showcase  
+![Character Section](assets/genshin-characters.png)
+
+### 📰 News Section  
+![News Section](assets/genshin-news.png)
 
 ## 📂 Setup Locally
 
