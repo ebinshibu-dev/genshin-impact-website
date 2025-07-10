@@ -313,7 +313,7 @@ iframe {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+  overflow: hidden;
 }
 
 .back-img img {
@@ -523,7 +523,6 @@ hr {
 
 .news {
   min-height: 100vh;
-  background-image: url('assets/ll.png');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -847,7 +846,6 @@ input[type="radio"] {
 
 .discover {
   position: relative;
-  background-image: url('assets/ll.png');
   min-height: 100vh;
   padding-top: 100px;
   border-bottom: 3px solid #A88E61;
@@ -971,7 +969,6 @@ input[type="radio"] {
 
 .Chronicled-wish {
   position: relative;
-  background-image: url('assets/ll.png');
   min-height: 100vh;
   color: #DEBE8A;
   padding-top: 90px;
