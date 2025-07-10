@@ -312,8 +312,6 @@ iframe {
   background-image: url('assets/ll.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 .back-img img {
