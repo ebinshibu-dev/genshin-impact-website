@@ -307,16 +307,13 @@ iframe {
 
 
 .back-image {
-  position: relative;
-  height: 100vh;
-  background-image: url('assets/ll.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow:hidden 
+    position: relative; /* Keep relative for inner positioning if needed */
+    min-height: 100vh; /* CHANGE from height: 100vh to min-height to allow it to expand */
+    background-image: url('assets/ll.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 .back-img img {
