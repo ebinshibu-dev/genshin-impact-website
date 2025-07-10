@@ -379,7 +379,6 @@ iframe {
   flex-direction: column;
   gap: 15px;
   align-items: flex-start;
-  padding: 20px;
   box-sizing: border-box;
   max-width: 100%;
 }
@@ -1659,7 +1658,7 @@ li a:hover {
   }
 
   .character-image {
-    margin-top: -30px;
+    margin-top: -70px;
     width: 450px;
     height: auto;
   }
