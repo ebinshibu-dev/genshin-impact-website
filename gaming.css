@@ -308,7 +308,7 @@ iframe {
 
 .back-image {
   position: relative;
-  height: calc(var(--vh, 1vh) * 100);
+  height: 100vh;
   background-image: url('assets/ll.png');
   background-size: cover;
   background-position: center;
