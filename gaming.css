@@ -4,15 +4,13 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  font-family: "Cormorant SC", serif;
-  overflow-x: hidden;
-  scrollbar-width: none;
-
+html,body {
+    height: 100vh; 
+    background-color: #000;
+    color: #fff;
+    font-family: "Cormorant SC", serif;
+    overflow-x: hidden; 
+    scrollbar-width: none; 
 }
 
 h1 {
@@ -307,14 +305,14 @@ iframe {
 
 
 .back-image {
-    position: relative;
-    height: 100vh; 
+    position: relative; 
+    min-height: 100vh; 
     background-image: url('assets/ll.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: hidden;
-} 
+    background-attachment: fixed; 
+}
 
 .back-img img {
   width: 100%;
@@ -1663,6 +1661,9 @@ li a:hover {
     height: auto;
     object-fit: contain;
   }
+  .char-img[data-index="1"] {
+  margin-left: 80px;
+  }
 
   /* ========== NEWS SECTION ========== */
   .newing {
@@ -1725,6 +1726,10 @@ li a:hover {
 
   }
 
+  .char-img[data-index="1"] {
+  margin-left: 80px;
+  }
+
   .text-content {
     padding-left: 50px;
     top: -7%;
@@ -1740,6 +1745,7 @@ li a:hover {
     text-align: center;
     letter-spacing: normal;
     width: 100%;
+    text-align-last: left;
   }
   .Chronicled-wish H2{
     font-size: 2.75rem;
