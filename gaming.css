@@ -308,12 +308,12 @@ iframe {
 
 .back-image {
     position: relative;
-    min-height: 100vh; 
+    height: 100vh; 
     background-image: url('assets/ll.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    overflow: hidden;
 } 
 
 .back-img img {
